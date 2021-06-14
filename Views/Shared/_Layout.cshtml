@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PsDevs - @ViewBag.Title</title>
+    <link rel="stylesheet" asp-href-include="/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" asp-href-include="/lib/font-awesome/css/all.css" />
+    <link rel="stylesheet" asp-href-include="/styles/custom.css" />
+
+</head>
+<body>
+    <div class="container-fluid container-intro-bg">
+        <div class="container-intro-transbox">
+            <div class="container">
+                <div class="navbar navbar-expand-md justify-content-between">
+                    <h3 class="navbar-brand">
+                        <a asp-controller="Home" asp-action="Index" class="container-logo">PsDevs</a>
+                    </h3>
+
+                    <div>
+                        <button class="navbar-toggler text-center btn-navbar-collapse" type="button" data-toggle="collapse" data-target="#myNavBar">
+                            Menu <span class="fas fa-angle-double-down"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="myNavBar">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Team</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-intro">
+                    <h2 class="container-intro-transbox-header text-md-center">
+                        CREATE &amp; MANTAIN HIGH-END SOFTWARE FOR YOUR ORGANISATION &amp; PERSONAL SPACE
+                    </h2>
+                    <p class="container-intro-transbox-p text-md-center">
+                        graphics, database, word, spreadsheet, enterprise &amp; many more
+                    </p>
+                    <p class="text-md-center">
+                        <button class="btn btn-primary btn-custom">Get Qoute</button>
+                        <button class="btn btn-danger btn-custom">Customers</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
+    <script asp-src-include="/lib/popper.js/popper.min.js"></script>
+    <script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

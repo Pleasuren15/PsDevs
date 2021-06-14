@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    color: #F26430;
+    padding: 12px inherit;
+    text-align: center;
+    width: 105px;
+    font: 500 18px 'Montserrat', sans-serif;
+}
+
+    .nav-link:hover {
+        color: rgb(255, 26, 26);
+        border-bottom: 4px solid rgb(255, 26, 26);
+    }
+
+.container-intro {
+    padding: 35px 0;
+}
+
+.container-logo, .container-logo:hover {
+    color: #F26430;
+    font: 400 30px 'Anton', sans-serif;
+    text-decoration: none;
+}
+
+.container-intro-bg {
+    background: url(https://images.wallpaperscraft.com/image/desk_office_chair_design_meeting_80711_1600x1200.jpg) no-repeat rgb(255, 0, 0);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.container-intro-transbox {
+    background-color: rgba(0,0,0,0.8);
+    opacity: 1;
+}
+
+.container-intro-transbox-header {
+    color: #ffffff;
+    font: 400 40px 'Anton', sans-serif;
+}
+
+.container-intro-transbox-p {
+    color: #F26430;
+}
+
+.btn-custom {
+    border-radius: 18px;
+    width: 140px;
+    margin-right: 5px;
+}
+
+.btn-navbar-collapse {
+    color: #F26430;
+}
