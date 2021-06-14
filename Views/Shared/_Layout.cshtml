@@ -12,7 +12,7 @@
     <div class="container-fluid container-intro-bg">
         <div class="container-intro-transbox">
             <div class="container">
-                <div class="navbar navbar-expand-md justify-content-between">
+                <div class="navbar navbar-expand-md justify-content-between sticky-top">
                     <h3 class="navbar-brand">
                         <a asp-controller="Home" asp-action="Index" class="container-logo">PsDevs</a>
                     </h3>
@@ -28,10 +28,13 @@
                                     <a class="nav-link" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="#">Careers</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,8 +59,7 @@
 
     <div class="container">
         @RenderBody()
-    </div>
-
+    </div>>
     <script asp-src-include="/lib/jquery/jquery.slim.min.js"></script>
     <script asp-src-include="/lib/popper.js/popper.min.js"></script>
     <script asp-src-include="/lib/bootstrap/js/bootstrap.min.js"></script>

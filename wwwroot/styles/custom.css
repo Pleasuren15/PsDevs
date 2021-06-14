@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -60,5 +60,27 @@ body {
 }
 
 .btn-navbar-collapse {
-    color: #F26430;
+    color: #fff;
+}
+
+.home-custom-col {
+    /*border: 1px solid rgb(181, 181, 181);*/
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.home-custom-col-h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.line-deco {
+    border-bottom: 3px solid #F26430; /*Orange*/
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+.custom-home-list li {
+    display: inline;
+    font: 600 18px 'Montserrat', sans-serif;
 }

@@ -32,3 +32,4 @@ C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcorea
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.pdb
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.genruntimeconfig.cache
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CopyComplete
+C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csprojAssemblyReference.cache
