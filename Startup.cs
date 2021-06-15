@@ -26,6 +26,7 @@ namespace PsDevs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<IRepositoryWrapper, CRepositoryWrapper>();
 
             services.AddDbContext<AppDbContext>(options =>
                  options.UseSqlServer(_configuration.GetConnectionString("defaultconnection")));

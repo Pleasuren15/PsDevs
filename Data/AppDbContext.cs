@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PsDevs.Models;
 
 namespace PsDevs.Data
 {
@@ -6,7 +7,7 @@ namespace PsDevs.Data
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-                
         }
+        public DbSet<Career> Careers { get; set; }
     }
 }

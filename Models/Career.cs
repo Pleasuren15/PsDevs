@@ -1,13 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PsDevs.Models
 {
     public class Career
     {
         [BindNever]
-        [Required]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [DisplayName("Id")]
         public int CareerId { get; set; }
         [Required]

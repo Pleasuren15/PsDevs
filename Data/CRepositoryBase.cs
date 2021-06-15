@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
-using System.Threading.Tasks;
 
 namespace PsDevs.Data
 {
-    public class CRepositoryPattern<T> : IRepositoryPattern<T> where T : class
+    public class CRepositoryBase<T> : IRepositoryBase<T> where T : class
     {
         public AppDbContext _appDbContext { get; set; }
-        public CRepositoryPattern(AppDbContext appDbContext)
+        public CRepositoryBase(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
