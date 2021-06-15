@@ -33,3 +33,42 @@ C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcorea
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.genruntimeconfig.cache
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CopyComplete
 C:\My_Stuff\Academics\Projects\GitHubProjects & Others\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csprojAssemblyReference.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\appsettings.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\libman.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.exe
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.deps.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.runtimeconfig.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.runtimeconfig.dev.json
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.pdb
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.Views.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.Views.pdb
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csprojAssemblyReference.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CoreCompileInputs.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.MvcApplicationPartsAssemblyInfo.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorAssemblyInfo.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorAssemblyInfo.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.AssemblyInfoInputs.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.AssemblyInfo.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.TagHelpers.input.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.TagHelpers.output.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorCoreGenerate.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorTargetAssemblyInfo.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorTargetAssemblyInfo.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.Views.pdb
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\staticwebassets\PsDevs.StaticWebAssets.Manifest.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\staticwebassets\PsDevs.StaticWebAssets.xml
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.pdb
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.genruntimeconfig.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CopyComplete
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Careers.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavbarPartial.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Team.cshtml.g.cs

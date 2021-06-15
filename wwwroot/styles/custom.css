@@ -17,9 +17,10 @@ body {
     font: 500 18px 'Montserrat', sans-serif;
 }
 
-    .nav-link:hover {
-        color: rgb(255, 26, 26);
-        border-bottom: 4px solid rgb(255, 26, 26);
+.nav-link:hover {
+        color: #ffffff;
+        transform : scale(1.1);
+        font-weight: 600;
     }
 
 .container-intro {
@@ -32,8 +33,29 @@ body {
     text-decoration: none;
 }
 
-.container-intro-bg {
+.container-intro-index-bg {
     background: url(https://images.wallpaperscraft.com/image/desk_office_chair_design_meeting_80711_1600x1200.jpg) no-repeat rgb(255, 0, 0);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.container-intro-careers-bg {
+    background: url(https://www.denso.com/sa/en/-/media/local/common/careers/careers-img-main.jpg?rev=bedbd086be3e4be1b3cb71cecd2bb34c&hash=BC4D1106E677893F4E28AAFC69DA4AAA) no-repeat rgb(255, 0, 0);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.container-intro-team-bg {
+    background: url(https://vistapointe.net/images/meeting-5.jpg) no-repeat rgb(255, 0, 0);
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.container-intro-contact-bg {
+    background: url(https://cutewallpaper.org/21/wallpaper-hd-1080p-free-download-for-mobile/HD-Wallpapers-1080p-for-Phone-77+-images-.jpg) no-repeat rgb(255, 0, 0);
     background-position: center;
     background-attachment: fixed;
     padding: 0;

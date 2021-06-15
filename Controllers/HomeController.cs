@@ -11,5 +11,20 @@ namespace PsDevs.Controllers
         {
             return View();
         }
+        
+        public IActionResult Careers()
+        {
+            return View();
+        }
+
+        public IActionResult Team()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
     }
 }
