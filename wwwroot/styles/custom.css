@@ -88,7 +88,7 @@ body {
 }
 
 .btn-custom:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .btn-navbar-collapse {
@@ -137,30 +137,13 @@ body {
     background-color: #F26430;
 }
 
-.career-container {
-    border: 1px solid #808080;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 10px;
+.career {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #F26430;
+    margin: 5px 0;
 }
 
-.career-container-header {
-    color: #242424;
-    font: 400 30px 'Anton', sans-serif;
-    letter-spacing: 3px;
-    padding-top: 7px;
-    line-height: 7px
-}
-
-.career-container-type {
-    padding-top: 10px;
-    line-height: 6px
-}
-
-.career-container-exp {
-    line-height: 7px;
-}
-
-.career-container-des {
-    font-weight: 600;
-}
+    .career > h2 {
+        font: 400 25px 'Anton', sans-serif;
+    }

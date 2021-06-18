@@ -39,13 +39,10 @@
     {
         @foreach (var c in Model)
         {
-            <div class="career-container">
-                <h2 class="career-container-header">@c.CareerName.ToUpper()</h2>
-                <p class="career-container-type">@c.CareerType employment</p>
-                <hr class="bg-orange" />
-                <p class="career-container-exp">@c.CareerYearsExperience</p>
-                <p class="career-container-des">@c.CareerDescription</p>
-                <a class="btn btn-outline-info btn-custom-2 text-info">Apply &rarr;</a>
+            <div class="career">
+                <h2>@c.CareerName</h2>
+                <span class="text-muted font-weight-bold align-middle mt-2">@c.CareerType | @c.CareerDatePosted.ToShortDateString() 
+                <a href="#" class="btn btn-info btn-sm">visit &rarr;</a></span>
             </div>
         }
     }

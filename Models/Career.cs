@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -17,6 +18,10 @@ namespace PsDevs.Models
         [Required]
         [DisplayName("Description")]
         public string CareerDescription { get; set; }
+
+        [Required]
+        [DisplayName("Date Posted")]
+        public DateTime CareerDatePosted { get; set; } = DateTime.Now;
         [Required]
         [DisplayName("Years Experience")]
         public string CareerYearsExperience { get; set; }
