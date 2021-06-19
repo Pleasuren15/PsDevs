@@ -232,7 +232,9 @@ input[type=text] {
 
 /*Footer*/
 .container-footer{
+    margin-top: 10px;
     display:flex;
+    bottom:0;
 }
 
 .container-footer-about-us{
@@ -242,6 +244,10 @@ input[type=text] {
 .container-footer-links {
     flex: 1;
 }
+
+    .container-footer-links > p {
+        line-height: 5px;
+    }
 
 .container-footer-follow {
     flex: 1;
