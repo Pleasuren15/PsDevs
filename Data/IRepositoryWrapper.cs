@@ -2,6 +2,7 @@
 {
     public interface IRepositoryWrapper
     {
-        public IRepositoryCareer _repositoryCareer { get;}
+        IRepositoryCareer _repositoryCareer { get;}
+        IRepositoryTeamMember _repositoryTeamMember { get; }
     }
 }

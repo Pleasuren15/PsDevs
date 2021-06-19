@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<TeamMember>
+
+@{
     ViewData["Title"] = "Our Team";
 }
 
@@ -16,5 +18,20 @@
                 </p>
             </div>
         </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="team-grid">
+        @foreach (var tm in Model)
+        {
+            <div class="team-member">
+                <img src="@tm.TeamMemberImageUrl"  alt="@tm.TeamMemberName"/>
+                <div class="team-member-info bg-orange">
+                    <h3>@tm.TeamMemberName</h3>
+                    <p>@tm.TeamMemberPosition</p>
+                </div>
+            </div>
+        }
     </div>
 </div>

@@ -114,3 +114,4 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CoreCompileInputs.cache
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.MvcApplicationPartsAssemblyInfo.cache
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs

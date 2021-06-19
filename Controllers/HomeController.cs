@@ -27,7 +27,7 @@ namespace PsDevs.Controllers
 
         public IActionResult Team()
         {
-            return View();
+            return View(_repositoryWrapper._repositoryTeamMember.FindAll());
         }
 
         public IActionResult Contact()
