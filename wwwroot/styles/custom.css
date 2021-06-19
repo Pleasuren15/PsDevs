@@ -173,9 +173,9 @@ body {
     background: linear-gradient(90deg, rgba(242,100,48,1) 0%, rgba(219,45,253,1) 100%);
 }
 
-.team-member-info:hover{
-    cursor: pointer;
-}
+    .team-member-info:hover {
+        cursor: pointer;
+    }
 
     .team-member-info > h3 {
         font: 400 20px 'Anton', sans-serif;
@@ -190,7 +190,66 @@ body {
         color: #ffffff;
     }
 
+/*TEAM.CSHTML*/
+.contact-info {
+    display: flex;
+}
 
+.contact-info-text {
+    flex: 3;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+    .contact-info-text h4 {
+        font: 400 18px 'Anton', sans-serif;
+    }
+
+    .contact-info-text p {
+        line-height: 0;
+    }
+
+.contact-container-form {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #17a2b8;
+}
+
+.contact-container-form > h4 {
+        font: 400 20px 'Anton', sans-serif;
+    }
+
+input[type=text] {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 3px; 
+    margin-bottom: 10px; 
+    resize: vertical;
+}
+
+/*Footer*/
+.container-footer{
+    display:flex;
+}
+
+.container-footer-about-us{
+    flex:1;
+}
+
+.container-footer-links {
+    flex: 1;
+}
+
+.container-footer-follow {
+    flex: 1;
+}
+
+::selection{
+    background-color: yellow;
+}
 @media (max-width : 900px) {
     .team-grid {
         display: grid;
