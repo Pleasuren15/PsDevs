@@ -112,6 +112,11 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CoreCompileInputs.cache
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.MvcApplicationPartsAssemblyInfo.cache
-C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,7 +30,14 @@ namespace PsDevs
             services.AddTransient<IRepositoryWrapper, CRepositoryWrapper>();
 
             services.AddDbContext<AppDbContext>(options =>
-                 options.UseSqlServer(_configuration.GetConnectionString("defaultconnection")));
+                 options.UseSqlServer(_configuration.GetConnectionString("Defaultconnection")));
+
+            services.AddDbContext<AppDbContextIdentity>(options =>
+                options.UseSqlServer(_configuration.GetConnectionString("IdentityConnection")));
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContextIdentity>()
+                .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +57,8 @@ namespace PsDevs
                     name: "default",
                     pattern: "{Controller=Home}/{Action=Index}/{Id?}");
             });
+            AppDbContextIdentity.CreateDefaultAdmin(app.ApplicationServices, _configuration).Wait();
         }
+
     }
 }
