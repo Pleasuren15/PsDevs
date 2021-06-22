@@ -77,9 +77,12 @@ body {
 }
 
 .btn-custom {
-    border-radius: 18px;
     width: 140px;
     margin-right: 5px;
+    transition : 1s;
+}
+
+.btn{
 }
 
 .btn-custom-2 {
