@@ -1,0 +1,108 @@
+﻿@model CareerApplication
+
+@{
+    ViewData["Title"] = "Apply";
+}
+
+<div class="container-fluid container-intro-careers-bg">
+    <div class="container-intro-transbox">
+        <div class="container">
+            <partial name="_NavbarPartial" />
+
+            <div class="container-intro">
+                <h2 class="container-intro-transbox-header text-md-center">
+                    APPLY HERE
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-2">
+    <form asp-controller="Career" asp-action="Apply">
+        <div asp-validation-summary="All" class="error-list text-danger"></div>
+        <!--Personal Information-->
+        <label>Personal Information</label>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationFirstNames" class="font-weight-bold"></label>
+                <input asp-for="@Model.ApplicationFirstNames" class="form-control"  placeholder="Pleasure Sibusiso"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationLastName" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationLastName" class="form-control" placeholder="Ndhlovu"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationDateOfBirth" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationDateOfBirth" type="date" class="form-control" placeholder="2000-02-13"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationIDNumber" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationIDNumber" class="form-control" placeholder="0002135572085"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationGender" class="font-weight-bolder"></label>
+                <select asp-for="@Model.ApplicationGender" class="form-control">
+                    <option value="null" selected>--select option--</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationRace" class="font-weight-bolder"></label>
+                <select asp-for="@Model.ApplicationRace" class="form-control">
+                    <option value="null" selected>--select option--</option>
+                    <option value="African">African</option>
+                    <option value="Coloured">Coloured</option>
+                    <option value="White">White</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Indian">Other</option>
+                </select>
+            </div>
+        </div>
+        <!--Contact Information-->
+        <label>Contact Information</label>
+        <div class="form-group">
+            <label asp-for="@Model.ApplicationEmail" class="font-weight-bolder"></label>
+            <input asp-for="@Model.ApplicationEmail" class="form-control" placeholder="2017269214@ufs4life.ac.za"/>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationPhoneNumber1" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationPhoneNumber1" class="form-control" placeholder="082 398 2825"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label asp-for="@Model.ApplicationPhoneNumber2" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationPhoneNumber2" class="form-control" placeholder="082 547 3658"/>
+            </div>
+        </div>
+
+        <!--Documents-->
+        <label>Documents</label>
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label asp-for="@Model.ApplicationIDCopy" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationIDCopy" type="file" class="form-control-file" />
+            </div>
+            <div class="form-group  col-md-4">
+                <label asp-for="@Model.ApplicationCVCopy" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationCVCopy" type="file" class="form-control-file" />
+            </div>
+            <div class="form-group  col-md-4">
+                <label asp-for="@Model.ApplicationAcademicTransciptsCopy" class="font-weight-bolder"></label>
+                <input asp-for="@Model.ApplicationAcademicTransciptsCopy" type="file" class="form-control-file" />
+            </div>
+        </div>
+        <div>
+            <label asp-for="@Model.ApplicationAdditionalComments" class="font-weight-bolder"></label>
+            <textarea asp-for="@Model.ApplicationAdditionalComments" class="form-control" rows="5" 
+                      placeholder="Additional comments here...."></textarea>
+        </div>
+
+
+        <div class="form-group mt-2">
+            <button type="submit" class="btn btn-danger">Apply</button>
+            <a class="btn btn-outline-success ml-1" asp-controller="Home" asp-action="Index">Home</a>
+        </div>
+    </form>
+</div>

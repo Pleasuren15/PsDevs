@@ -20,11 +20,6 @@ namespace PsDevs.Controllers
             return View();
         }
 
-        public IActionResult Careers()
-        {
-            return View(_repositoryWrapper._repositoryCareer.FindAll());
-        }
-
         public IActionResult Team()
         {
             return View(_repositoryWrapper._repositoryTeamMember.FindAll());

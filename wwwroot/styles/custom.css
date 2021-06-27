@@ -277,6 +277,17 @@ input[type=text] {
 /*.btn-text-orange {
     color: #F26430;
 }*/
+
+label{
+    font-size: 15px;
+}
+
+.error-list ul{
+    list-style-type:none;
+    display:grid;
+    grid-template-columns : repeat(3, 1fr);
+    font-weight:700;
+}
 ::selection {
     background-color: yellow;
 }
@@ -286,14 +297,9 @@ input[type=text] {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2em 1em;
     }
-
-    .container-footer-follow-imgs {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-    }
 }
 
-@media (max-width : 420px) {
+@media (max-width : 600px) {
     .team-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -301,8 +307,8 @@ input[type=text] {
     }
     .container-footer {
         margin-top: 10px;
-        display: flex;
-        flex-direction:row;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         bottom: 0;
         color: white;
     }

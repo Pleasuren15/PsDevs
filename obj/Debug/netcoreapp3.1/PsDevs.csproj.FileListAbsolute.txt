@@ -66,7 +66,6 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.pdb
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.genruntimeconfig.cache
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csproj.CopyComplete
-C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Careers.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavbarPartial.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Home\Team.cshtml.g.cs
@@ -122,3 +121,5 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\LOGIN.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Career\Careers.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Career\Apply.cshtml.g.cs
