@@ -45,7 +45,6 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.pdb
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.Views.dll
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\bin\Debug\netcoreapp3.1\PsDevs.Views.pdb
-C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csprojAssemblyReference.cache
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorAssemblyInfo.cache
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.RazorAssemblyInfo.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.AssemblyInfoInputs.cache
@@ -123,3 +122,4 @@ C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netc
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Career\Careers.cshtml.g.cs
 C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\Razor\Views\Career\Apply.cshtml.g.cs
+C:\My_Stuff\Academics\Projects\GitHub & Important Projects\PsDevs\obj\Debug\netcoreapp3.1\PsDevs.csprojAssemblyReference.cache

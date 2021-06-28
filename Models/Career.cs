@@ -22,6 +22,15 @@ namespace PsDevs.Models
         [Required]
         [DisplayName("Date Posted")]
         public DateTime CareerDatePosted { get; set; } = DateTime.Now;
+
+        [Required]
+        [DisplayName("Closing Date")]
+        public DateTime CareerClosingDate { get; set; }
+
+        [Required]
+        [DisplayName("Location")]
+        public string CareerLocation { get; set; } 
+
         [Required]
         [DisplayName("Years Experience")]
         public string CareerYearsExperience { get; set; }

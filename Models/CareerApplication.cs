@@ -11,6 +11,10 @@ namespace PsDevs.Models
         public string ApplicatioId { get; set; }
 
         [Required]
+        [DisplayName("Career")]
+        public string ApplicationCareer { get; set; }
+
+        [Required]
         [DisplayName("First Names")]
         public string ApplicationFirstNames { get; set; }
 

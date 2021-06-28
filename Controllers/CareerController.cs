@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using PsDevs.Data;
 using PsDevs.Models;
 
@@ -26,6 +27,7 @@ namespace PsDevs.Controllers
         [HttpGet]
         public IActionResult Apply()
         {
+            ViewBag.Careers = new SelectList(_repositoryWrapper._repositoryCareer.FindAll(), "CareerId", "CareerName", null);
             return View();
         }
 
@@ -34,7 +36,8 @@ namespace PsDevs.Controllers
         {
             if (ModelState.IsValid)
             {
-
+                _repositoryWrapper._repositoryCareerApplication.Create(careerApplication);
+                _repositoryWrapper._repositoryCareerApplication.Save();
             }
             return View();
         }

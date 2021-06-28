@@ -37,13 +37,27 @@
     }
     else
     {
+        <h2 class="container-logo">@Model.Count() JOBS AVAILABLE</h2>
         @foreach (var c in Model)
         {
             <div class="career">
-                <h2>@c.CareerName</h2>
-                <span class="text-muted font-weight-bold align-middle mt-2">@c.CareerType | @c.CareerDatePosted.ToShortDateString()</span>
+                <h2 class="career-name">@c.CareerName</h2>
+
+                <p class="career-prop">Location: @c.CareerLocation</p>
+                <p class="career-prop">Job Type: @c.CareerType</p>
+                <p class="career-prop">Posted: @c.CareerDatePosted.ToShortDateString()</p>
+                <div class="career-footer">
+                    <div class="career-closing-date">Closing Date:  @c.CareerClosingDate.ToShortDateString()</div>
+                    <div>
+                        <a href="#">
+                            <img src="~/images/icons8-love-24.png" />
+                        </a> <a href="#">
+                            <img src="~/images/icons8-chat-24.png" />
+                        </a>
+                    </div>
+                </div>
             </div>
         }
-        <a class="btn btn-outline-info btn-custom text-info" asp-controller="Career" asp-action="Apply">Apply Here &rarr;</a>
+        <a class="btn btn-outline-info text-info" asp-controller="Career" asp-action="Apply">Apply Here &rarr;</a>
     }
 </div>

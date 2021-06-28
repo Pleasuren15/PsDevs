@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using PsDevs.Data;
 using PsDevs.Models;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,23 +12,29 @@ using PsDevs.Models;
 namespace PsDevs.Controllers
 {
     public class AccountController : Controller
-    {     
+    {
         public UserManager<IdentityUser> _userManager { get; }
         public SignInManager<IdentityUser> _signInManager { get; }
         public RoleManager<IdentityRole> _roleManager { get; }
+        public IRepositoryWrapper _repositoryWrapper { get; }
 
         public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+            RoleManager<IdentityRole> roleManager, IRepositoryWrapper repositoryWrapper)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
+            _repositoryWrapper = repositoryWrapper;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(_userManager.Users);
+            return View(new ManagementViewModel()
+            {
+                _identityUsers = _userManager.Users,
+                _careers = _repositoryWrapper._repositoryCareer.FindAll()
+            });
         }
 
         [HttpGet]
@@ -42,7 +49,7 @@ namespace PsDevs.Controllers
             if (ModelState.IsValid)
             {
                 IdentityUser user = await _userManager.FindByEmailAsync(loginViewModel.Email);
-                if(user != null)
+                if (user != null)
                 {
                     var result = await _signInManager.PasswordSignInAsync(user, loginViewModel.Password, false, false);
                     if (result.Succeeded)

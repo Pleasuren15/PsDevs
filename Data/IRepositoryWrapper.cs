@@ -4,5 +4,7 @@
     {
         IRepositoryCareer _repositoryCareer { get;}
         IRepositoryTeamMember _repositoryTeamMember { get; }
+
+        IRepositoryCareerApplication _repositoryCareerApplication { get;}
     }
 }

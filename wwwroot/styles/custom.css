@@ -19,7 +19,7 @@ body {
     transition: 0.5s;
 }
 
-    .nav-link:hover {
+.nav-link:hover {
         color: #3041f2;
         transform: scale(1.1);
         font-weight: 600;
@@ -145,17 +145,30 @@ body {
     font-weight: 700;
 }
 
-.career {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #F26430;
+.career{
+    border : 1px solid #f26430;
+    padding: 7px;
     margin: 5px 0;
 }
 
-    .career > h2 {
-        font: 400 25px 'Anton', sans-serif;
-    }
+.career-name {
+    font: 600 20px 'Montserrat', sans-serif;
+    margin-bottom: 13px;
+}
 
+.career-prop{
+    font: 400 15px 'Montserrat', sans-serif;
+    line-height:0;
+}
+
+.career-footer{
+    display:flex;
+    justify-content:space-between;
+}
+
+.career-closing-date{
+    font:600 17px 'Montserrat', sans-serif;
+}
 /*TEAM.CSHTML*/
 .team-grid {
     margin-top: 7px;
