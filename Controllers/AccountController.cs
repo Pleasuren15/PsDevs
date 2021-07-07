@@ -32,6 +32,7 @@ namespace PsDevs.Controllers
         {
             return View(new ManagementViewModel()
             {
+                /* Please put all code under try catch */
                 _identityUsers = _userManager.Users,
                 _careers = _repositoryWrapper._repositoryCareer.FindAll()
             });
